@@ -4,7 +4,7 @@
           <img [src]="userDetails.avatar_url" [alt]="userDetails.name" width="200" height="200" />
           <div class="user-top-info-div">
             <h1>{{ userDetails.name }}</h1>
-            <h4 *ngIf="userDetails.login">@{{ userDetails.login }}</h4>
+            <h4 *ngIf="userDetails.login">&#64;{{ userDetails.login }}</h4>
             <p class="hireable-styling">
               {{ userDetails.hireable ? 'Available for Hire' : 'Not Available for Hire' }}
             </p>

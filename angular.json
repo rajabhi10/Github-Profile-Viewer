@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "github-profile-vofile-viewer:build:production"
+              "buildTarget": "github-profile-vofile-viewer:build:production"
             },
             "development": {
-              "browserTarget": "github-profile-vofile-viewer:build:development"
+              "buildTarget": "github-profile-vofile-viewer:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "github-profile-vofile-viewer:build"
+            "buildTarget": "github-profile-vofile-viewer:build"
           }
         },
         "test": {
