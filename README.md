@@ -22,7 +22,7 @@ https://github.com/your-username/Github-Profile-Viewer.git
 ### Navigate to the project directory(Get into the folder)
 
 ### Install dependencies:
-npm install
+`npm install`
 
 ### Run the development server:
 You can either use `ng serve` or `npm start` to run the project.
