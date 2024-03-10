@@ -16,7 +16,7 @@ GitHub API Integration: Utilize GitHub API to fetch user and repository data.
 Pagination: Implement pagination for the repository list.
 
 ## Setup:
-###To Clone the Project: 
+### To Clone the Project: 
 https://github.com/your-username/Github-Profile-Viewer.git
 
 ### Navigate to the project directory(Get into the folder)
